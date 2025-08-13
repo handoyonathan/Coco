@@ -87,8 +87,7 @@ final class ActivityDetailView: UIView {
                 data.availablePackages.content.forEach { data in
                     packageContainer.addArrangedSubview(createPackageView(data: data))
                 }
-            }
-            else {
+            } else {
                 data.hiddenPackages.forEach { data in
                     packageContainer.addArrangedSubview(createPackageView(data: data))
                 }
@@ -488,8 +487,8 @@ private extension ActivityDetailView {
             NSAttributedString(
                 string: "/Person",
                 attributes: [
-                    .font : UIFont.jakartaSans(forTextStyle: .subheadline, weight: .medium),
-                    .foregroundColor : Token.grayscale60
+                    .font: UIFont.jakartaSans(forTextStyle: .subheadline, weight: .medium),
+                    .foregroundColor: Token.grayscale60
                 ]
             )
         )

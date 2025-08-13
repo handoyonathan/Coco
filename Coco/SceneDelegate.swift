@@ -85,11 +85,15 @@ private extension SceneDelegate {
     }
 
     func dismissSplash() {
-        UIView.animate(withDuration: 0.5, animations: {
-            self.splashView?.alpha = 0
-        }) { _ in
-            self.splashView?.removeFromSuperview()
-            self.splashView = nil
-        }
+        UIView.animate(
+            withDuration: 0.5,
+            animations: {
+                self.splashView?.alpha = 0
+            },
+            completion: { _ in
+                self.splashView?.removeFromSuperview()
+                self.splashView = nil
+            }
+        )
     }
 }
