@@ -15,8 +15,7 @@ extension ProfileViewModel {
     func onViewDidLoad() {
         if let _: String = UserDefaults.standard.value(forKey: "user-id") as? String {
             showUserProfileView()
-        }
-        else {
+        } else {
             showSignInView()
         }
     }

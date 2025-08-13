@@ -34,8 +34,7 @@ struct MyTripListCardDataModel {
             if targetDate < today {
                 bookingStatus = "Completed"
                 statusStyle = .success
-            }
-            else if targetDate > today {
+            } else if targetDate > today {
                 bookingStatus = "Upcoming"
                 statusStyle = .refund
             }

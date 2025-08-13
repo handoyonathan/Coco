@@ -39,8 +39,7 @@ extension ActivityDetailViewController: ActivityDetailViewModelAction {
         
         if data.imageUrlsString.isEmpty {
             thisView.toggleImageSliderView(isShown: false)
-        }
-        else {
+        } else {
             thisView.toggleImageSliderView(isShown: true)
             let sliderVCs: ImageSliderHostingController = ImageSliderHostingController(images: data.imageUrlsString)
             addChild(sliderVCs)

@@ -66,7 +66,7 @@ private extension HomeView {
     func createContentStackView() -> UIStackView {
         let stackView: UIStackView = UIStackView(arrangedSubviews: [
             searchBarView,
-            searchResultView,
+            searchResultView
         ])
         stackView.axis = .vertical
         stackView.spacing = 12.0

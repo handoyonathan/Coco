@@ -46,4 +46,3 @@ extension BaseCoordinator: BaseCoordinatorProtocol {
         }
     }
 }
-

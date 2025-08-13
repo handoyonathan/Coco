@@ -75,7 +75,7 @@ private extension HomeActivityCell {
                 imageView,
                 areaView,
                 nameLabel,
-                priceLabel,
+                priceLabel
             ]
         )
         stackView.spacing = 4.0

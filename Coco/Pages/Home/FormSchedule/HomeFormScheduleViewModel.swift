@@ -85,8 +85,7 @@ extension HomeFormScheduleViewModel: HomeFormScheduleViewModelProtocol {
 
                 let response: CreateBookingResponse = try await fetcher.createBooking(request: request)
                 delegate?.notifyFormScheduleDidNavigateToCheckout(with: response)
-            }
-            catch {
+            } catch {
                 
             }
         }
@@ -97,8 +96,7 @@ extension HomeFormScheduleViewModel: HomeSearchBarViewModelDelegate {
     func notifyHomeSearchBarDidTap(isTypeAble: Bool, viewModel: HomeSearchBarViewModel) {
         if viewModel === calendarInputViewModel {
             actionDelegate?.showCalendarOption()
-        }
-        else if viewModel === paxInputViewModel {
+        } else if viewModel === paxInputViewModel {
             
         }
     }

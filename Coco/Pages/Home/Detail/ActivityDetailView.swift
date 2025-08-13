@@ -410,7 +410,7 @@ private extension ActivityDetailView {
         contentView.addSubviews([
             imageView,
             nameLabel,
-            descriptionLabel,
+            descriptionLabel
         ])
         
         imageView.layout {

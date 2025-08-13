@@ -81,7 +81,7 @@ extension HomeViewModel: HomeSearchBarViewModelDelegate {
             latestSearches: [
                 .init(id: 1, name: "Kepulauan Seribu"),
                 .init(id: 2, name: "Nusa Penida"),
-                .init(id: 3, name: "Gili Island, Indonesia"),
+                .init(id: 3, name: "Gili Island, Indonesia")
             ]
         )
     }
